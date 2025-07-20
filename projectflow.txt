@@ -8,3 +8,5 @@
 Now it will ask to do: ("git rm -r --chached 'data'" and "git commit -m "Stop traking data"")
 Because initially we were tracking data/folder from git now we have to remove it so that DVC can handle.
 8. Again we do "dvc add data/" then "git add .gitignore data.dvc"
+9. Now - "dvc commit" and then "dvc push"
+10. DO a git add-commit-push to mark this stage as first version of data
